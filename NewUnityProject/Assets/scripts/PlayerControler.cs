@@ -24,7 +24,7 @@ public class PlayerControler : MonoBehaviour
         vDir = Input.GetAxisRaw("Vertical");
 
         //transform.position = new Vector3(hDir, vDir, 0) * Time.deltaTime * playerSpeed;
-        if (Input.GetButtonDown("Jump")&& ground) ;
+        if (Input.GetButtonDown("Jump")&& ground) 
         {
             jump = true;
 
